@@ -13,6 +13,7 @@ function verificar() {
     perfil.style.height = '300px'
     perfil.style.width = '300px'
     perfil.style.borderRadius = '50%'
+    
 
     if (anoN == '' || idade >= 99 || anoN > ano_atual || anoN < 0){
         alert(['[ERRO] Por favor digite um ano de nascimento válido'])
@@ -23,6 +24,7 @@ function verificar() {
         msg.innerHTML = `Homem de ${idade} anos detectado`
         perfil.src = 'menino.jpg'
         perfil.style.border = 'solid 3px white'
+        
     } else if (sexo[0].checked && idade <= 21) {
         msg.innerHTML = `Homem de ${idade} anos detectado`
         perfil.src = 'adolescente.jpg'
