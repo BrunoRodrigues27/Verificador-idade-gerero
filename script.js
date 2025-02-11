@@ -43,7 +43,7 @@ function verificar() {
         perfil.style.border = 'solid 3px white'
     } else if (sexo[1].checked && idade <= 21) {
         msg.innerHTML = `Mulher de ${idade} anos detectada`
-        perfil.src = 'adolescenteM.jpg'
+        perfil.src = 'adolescentem.jpg'
         perfil.style.border = 'solid 3px white'
     } else if(sexo[1].checked && idade > 21 && idade <= 45){
         msg.innerHTML = `Mulher de ${idade} anos detectada`
