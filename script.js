@@ -10,7 +10,9 @@ function verificar() {
     let idade = ano_atual - anoN 
     let msg = document.getElementById('texto')
     let sexo = document.getElementsByName('sexo')
-    
+    perfil.style.height = '300px'
+    perfil.style.width = '300px'
+    perfil.style.borderRadius = '50%'
 
     if (anoN == '' || idade >= 99 || anoN > ano_atual || anoN < 0){
         alert(['[ERRO] Por favor digite um ano de nascimento válido'])
